@@ -1,0 +1,22 @@
+.Header-Container{
+    height: 48px;
+    background-color: white;
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Header-Button{
+    height: 20px;
+    box-sizing: border-box;
+    padding: 4px 7px;
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    gap: 6px;
+    border: 2px solid #E4E6E8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+

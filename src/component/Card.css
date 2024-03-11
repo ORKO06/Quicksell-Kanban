@@ -1,0 +1,82 @@
+.Card-Container{
+    width: 240px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.Card-ID-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;  
+    height: 18px;  
+}
+
+.Card-ID-Container p{
+    color: #828282;
+}
+
+.Card-ID{
+    color: #6B6F76;
+}
+
+.text{
+    display: flex;
+    gap: 4px;
+}
+
+.Status-Icon{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.Priority-Icon{
+    font-size: 14px;
+}
+
+.Card-Title{
+    padding: 4px 0;
+    height: 34px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    padding-right: 12px;
+}
+
+.Card-Priority-Status{
+    padding: 4px;
+    border: 1px solid #F4F6F7;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.Card-Status-Container{
+    display: flex;
+    gap: 6px;
+    justify-content: flex-start;
+}
+
+.Card-Feature-Tag{
+    font-size: 8px;
+    padding: 4px 2px;
+    border: 1px solid #F4F6F7;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.Feature-Tag-Circle{
+    height: 8px;
+    width: 8px;
+    background-color: #BEC2C8;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.Card-Tag{
+    color: #797D83;
+}

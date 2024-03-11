@@ -1,0 +1,9 @@
+.Header-DropDown-Container{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.Grouping-Style{
+    color: #868688;
+}

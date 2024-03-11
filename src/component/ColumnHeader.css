@@ -1,0 +1,22 @@
+.Column-Header-Container{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    align-items: center;
+}
+
+.Column-Header-Left{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.Column-Header-Right{
+    display: flex;
+    gap: 4px;
+}
+
+.Column-Card-Number{
+    color: #6E7279;
+}

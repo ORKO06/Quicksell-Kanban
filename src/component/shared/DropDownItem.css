@@ -1,0 +1,7 @@
+.select-container{
+    padding: 4px 6px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    width: 86px;
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.Column-Container{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+    margin-top: 24px;
+}

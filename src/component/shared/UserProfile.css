@@ -1,0 +1,38 @@
+.User-Profile-Container{
+    position: relative;
+}
+
+.User-Profile-Picture{
+    width: 18px;
+    height: 18px;
+    background-color: #DFE1E4;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.ProfileText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+}
+
+.User-Status{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+    border: 1px solid white;
+}
+
+.active{
+    background-color: #E8B602;
+}
+
+.inactive{
+    background-color: #DFE1E4;
+}
